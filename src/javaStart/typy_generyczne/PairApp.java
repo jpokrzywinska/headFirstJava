@@ -16,5 +16,6 @@ public class PairApp {
     }
     static  <T,V> void pair (Pair <T,V> pair){
         System.out.println(pair.getT() + " " + pair.getV());
+        System.out.println(" ");
     }
 }
