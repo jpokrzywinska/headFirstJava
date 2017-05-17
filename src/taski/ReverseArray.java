@@ -9,7 +9,7 @@ public class ReverseArray {
 
     public static void main (String [] args) {
         int number = 0;
-        \\todo reverseArary bedzie dopiero, gdy uzyjesz metody reverse, popraw nazwe
+        //todo reverseArary bedzie dopiero, gdy uzyjesz metody reverse, popraw nazwe
         int[] reverseArray = {1, 2, 3, 4, 50};
         reverse(reverseArray);
     }
