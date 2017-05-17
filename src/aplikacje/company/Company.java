@@ -12,14 +12,17 @@ public class Company {
     Map<Employee, Position> employees;
 
     public Company() {
+
         employees = new HashMap<>();
     }
 
     public void addEmployee(Employee employee, Position position) {
+
         employees.put(employee, position);
     }
 
     public void deleteEmployee(Employee employee) {
+
         employees.remove(employee);
     }
 
