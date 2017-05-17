@@ -6,22 +6,28 @@ package taski;
 public class ReverseArray {
 
 
-
-    public static void main (String [] args) {
+    public static void main(String[] args) {
         int number = 0;
-        //todo reverseArary bedzie dopiero, gdy uzyjesz metody reverse, popraw nazwe
-        int[] reverseArray = {1, 2, 3, 4, 50};
-        reverse(reverseArray);
-    }
 
+        int[] array = {1, 2, 3, 4, 50,7,53};
+
+        reverse(array);
+    }
 
 
     //todo to ma zwracać odwróconą tablice, a nie ze ty sobie wypiszesz... mozesz dodatkowa metode do wypisania, ale jak kaza zrobic metode
     //do odwracania, to znaczy ze na wyjsciu ma byc odwrócenie
-    public static void reverse(int[] reverseArray) {
-        for(int i = reverseArray.length-1; i>=0;i--){
-            System.out.println(reverseArray[i]);
-        }
 
+    public static int[] reverse(int[] array){
+
+        changeArray(array);
+        return array;
+
+    }
+
+    public static void changeArray(int[] array) {
+        for (int i = array.length - 1; i >= 0; i--) {
+            System.out.println(array[i]);
+        }
     }
 }
